@@ -5,21 +5,21 @@ import {Link} from 'react-router-dom'
 export default function Header(){
 
     const liens =[
-        {label: 'Accueil',  href: '#'},
-        {label: 'Projects', href: 'projects'},
-        {label: 'Compétences', href: 'competences'},
-        {label: 'A propos',  href: 'apropos'},
+        {label: 'Accueil',  href: '/'},
+        {label: 'Projets', href: '/projets'},
+        {label: 'Compétences', href: '/competences'},
+        {label: 'A propos',  href: '/apropos'},
         
     ]
 
     const [open, setOpen] = useState(false)
     
    return <>
-            <header className="fixed top-0 left-1/2 transform -translate-x-1/2 w-4xl bg-gray-950 text-white px-36 md:px-4">
-                <div className="flex items-center justify-around py-4">
+            <header className="fixed top-0 left-0 right-0 z-50  bg-gray-950 text-white px-36 md:px-4">
+                <div className="flex items-center justify-evenly  py-4">
                     {/* Logo */}
                        <div className="text-xl font-bold text-gray-300 hover:text-gray-100">
-                            <a href="#">
+                            <a href="/">
                                 <span>
                                     <span className="">{'<'}</span>
                                     <span> AKN</span>
