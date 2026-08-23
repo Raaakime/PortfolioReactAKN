@@ -1,7 +1,7 @@
 import Header from '../components/header/Header'
 import Hero from '../components/hero/Hero'
 import SectionCentre from '../components/sectionHub/SectionCentre'
-import Footer from '../components/Footer/Footer'
+import Footer from '../components/footer/Footer'
 
 export default function Accueil(){
 

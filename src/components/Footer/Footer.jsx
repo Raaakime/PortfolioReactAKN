@@ -40,7 +40,7 @@ export default function Footer(){
                                     
                             </nav>
 
-                             <p class="text-sm text-center">&copy; 2026 <span className="text-blue-500">Abdou Karime NDIAYE</span> . Tous droits réservés.</p>
+                             <p className="text-sm text-center">&copy; 2026 <span className="text-blue-500">Abdou Karime NDIAYE</span> . Tous droits réservés.</p>
                         
 
                    
