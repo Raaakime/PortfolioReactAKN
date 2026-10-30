@@ -74,7 +74,7 @@ export default function Hero(){
                                         <span className="text-gray-500">Voir plus  </span>
                                         <h3>Projets</h3>
                                     </div>
-                                      <Link to="#" className="float-end text-3xl font-bold  text-gray-500 group-hover:text-white group-hover:animate-bounce"><BsFillArrowRightCircleFill /></Link>   
+                                      <Link to="/projets" className="float-end text-3xl font-bold  text-gray-500 group-hover:text-white group-hover:animate-bounce"><BsFillArrowRightCircleFill /></Link>   
                                  </div>
                             </motion.div>
                     </div>

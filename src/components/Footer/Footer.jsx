@@ -6,7 +6,7 @@ export default function Footer(){
     const liens =[
         {label: 'Accueil',  href: '/'},
         {label: 'Projects', href: '/projets'},
-        {label: 'Compétences', href: '/competences'},
+        {label: 'Contact SN', href: '/contact'},
         {label: 'A propos',  href: '/apropos'},
         
     ]

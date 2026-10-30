@@ -37,11 +37,10 @@ if(!projet) return <p className="text-red-500 text-6xl mt-36">Page introuvable</
           </div>
              
            <div className="font-light shadow-2xl p-2">
-           
-                               
-                                <img src={projet.imgProjet} alt={projet.desImg} width={500}/>
+                
+                  <img src={projet.imgProjet} alt={projet.desImg} width={500}/>
                                     
-                         </div>
+           </div>
         </section>
 
         <section className="">

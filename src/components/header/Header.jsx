@@ -54,7 +54,7 @@ export default function Header(){
                             </nav>
 
                             <div className="hidden md:flex">
-                                <a className="rounded-xl bg-gray-700 text-gray-50 py-2 px-4  text-sm font-semibold hover:bg-gray-600 hover:text-gray-50" href="">Parlons</a>
+                                <Link to={"/contact"} className="rounded-xl bg-gray-700 text-gray-50 py-2 px-4  text-sm font-semibold hover:bg-gray-600 hover:text-gray-50" href="">Parlons-en</Link>
                             </div>
                         
 
@@ -87,7 +87,7 @@ export default function Header(){
         );
       })}
                             
-                            <a className="rounded-xl bg-gray-700 text-gray-50 p-2 text-sm font-semibold hover:bg-gray-600 hover:text-gray-50" href="">Parlons</a>
+                            <Link to={"/contact"} className="rounded-xl bg-gray-700 text-gray-50 p-2 text-sm font-semibold hover:bg-gray-600 hover:text-gray-50" href="">Parlons-en</Link>
                         </div>
                     </div>
                 )}
