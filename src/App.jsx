@@ -5,7 +5,7 @@ import Apropos from "./pages/Apropos"
 import Projets from "./pages/Projets"
 import Contact from "./pages/Contact"
 import {BrowserRouter, Routes, Route} from "react-router-dom"
-import PageDetails from "./components/projets/pageDetails"
+import PageDetails from "./components/projets/PageDetails"
 import P_Details from "./pages/P_Details"
 
 
