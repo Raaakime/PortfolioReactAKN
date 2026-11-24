@@ -1,6 +1,6 @@
 import Header from "../components/header/Header"
 import Footer from "../components/footer/Footer"
-import PageDetails from "../components/projets/pageDetails"
+import PageDetails from "../components/projets/PageDetails"
 export default function P_Details({detailsData}){
 
 

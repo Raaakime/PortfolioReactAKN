@@ -56,7 +56,7 @@ export default  function SectContact(){
                          </div>
                        </div>
 
-                       <din className="parlons-en ">
+                       <div className="parlons-en ">
                              <form action="">
                               <div className="space-y-6">
                                   
@@ -97,7 +97,7 @@ export default  function SectContact(){
                                         Contactez-moi
                                    </motion.button>
                              </form>
-                       </din>
+                       </div>
                   </div>
               </motion.div>
          </div>
