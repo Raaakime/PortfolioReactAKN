@@ -100,7 +100,7 @@ if(!projet) return <p className="text-red-500 text-6xl mt-36">Page introuvable</
                
                     
                        <div className="space-x-56">
-                          <Link to="../../../public/Demo/Aknmedilink.mp4" target="_blank" className="text-gray-500 font-semibold hover:text-blue-600 hover:font-bold">Démo</Link>
+                          <Link to="/Demo/Aknmedilink.mp4" target="_blank" className="text-gray-500 font-semibold hover:text-blue-600 hover:font-bold">Démo</Link>
                           <Link to="https://github.com/Raaakime/ConsultationEnLigne" target="_blank" className="text-gray-500 font-semibold hover:text-blue-600 hover:font-bold">Code</Link>
                       </div>   
                   
